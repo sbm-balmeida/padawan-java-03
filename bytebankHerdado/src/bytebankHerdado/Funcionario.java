@@ -4,7 +4,8 @@ public class Funcionario {
 
 	private String nome;
 	private String cpf;
-	private double salario;
+	protected double salario;/*protected(entre o public e o private)-> publico para
+	os meus filhos*/
 	
 	public double getBonificacao() {
 		return this.salario * 0.1;
