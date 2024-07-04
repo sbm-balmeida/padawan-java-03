@@ -1,6 +1,6 @@
 package bytebankHerdado;
 
-public abstract class FuncionarioAutenticavel extends Funcionario {
+public abstract class Autenticavel {
 
 	private int senha;
 	
